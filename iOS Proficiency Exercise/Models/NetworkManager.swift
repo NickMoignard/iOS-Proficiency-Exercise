@@ -69,8 +69,13 @@ class NetworkManager {
             if let returnString = data.value {
                 let trimmedString = returnString.trimmingCharacters(in: .whitespacesAndNewlines)
                 if let dataFromString = trimmedString.data(using: .utf8) {
-                    let json = JSON(data: dataFromString)
-                    completion(json)
+                    
+                    do {
+                        let json = try JSON(data: dataFromString)
+                        completion(json)
+                    } catch {
+                        print("ERROR")
+                    }
                 }
             }
         }

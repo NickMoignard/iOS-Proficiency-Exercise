@@ -9,7 +9,13 @@
 import UIKit
 
 class PostTableViewCell: UITableViewCell {
-
+    
+    
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var descriptionLabel: UILabel!
+    @IBOutlet var postImageView: UIImageView!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

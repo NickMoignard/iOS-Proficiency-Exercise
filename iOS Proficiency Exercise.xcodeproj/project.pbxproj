@@ -20,6 +20,7 @@
 		D519A9A42085C907003232F9 /* iOS_Proficiency_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A9A32085C907003232F9 /* iOS_Proficiency_ExerciseUITests.swift */; };
 		D519A9B22085D4D2003232F9 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A9B12085D4D2003232F9 /* MainTableViewController.swift */; };
 		D519A9B42085D519003232F9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A9B32085D519003232F9 /* DetailViewController.swift */; };
+		D519A9B6208702FC003232F9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A9B5208702FC003232F9 /* PostTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		D519A9A52085C907003232F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D519A9B12085D4D2003232F9 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		D519A9B32085D519003232F9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D519A9B5208702FC003232F9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		DD739D6FBF6417EAC4A98CEB /* Pods-iOS Proficiency ExerciseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Proficiency ExerciseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Proficiency ExerciseUITests/Pods-iOS Proficiency ExerciseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFFC19D89614D0A6EA23F795 /* Pods-iOS Proficiency Exercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Proficiency Exercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Proficiency Exercise/Pods-iOS Proficiency Exercise.release.xcconfig"; sourceTree = "<group>"; };
 		E3D30BC310212BD909533233 /* Pods-iOS Proficiency ExerciseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Proficiency ExerciseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS Proficiency ExerciseTests/Pods-iOS Proficiency ExerciseTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 			children = (
 				D519A9B12085D4D2003232F9 /* MainTableViewController.swift */,
 				D519A9B32085D519003232F9 /* DetailViewController.swift */,
+				D519A9B5208702FC003232F9 /* PostTableViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				B331BE27208615F400BA9EE6 /* NetworkManager.swift in Sources */,
 				D519A9842085C905003232F9 /* AppDelegate.swift in Sources */,
 				B331BE25208614D600BA9EE6 /* Post.swift in Sources */,
+				D519A9B6208702FC003232F9 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
